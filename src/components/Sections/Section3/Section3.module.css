@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
+.section3 {
+  height: 90vh;
+  background-color: #532d1c;
+  display: flex;
+  justify-content: center;
+}
+.textos {
+  padding: 60px;
+  justify-items: center;
+}
+.textos h1 {
+  font-size: 36px;
+  color: #f1c668;
+  text-transform: uppercase;
+  font-family: Titan One;
+  font-weight: normal;
+}
+.textos h2 {
+  font-size: 23px;
+  color: beige;
+}
+.lista span {
+  font-family: Titan One;
+  color: #f0de57;
+  font-weight: normal;
+  min-width: 60px;
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+.lista p {
+  color: white;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.lista div {
+  display: flex;
+  gap: 15px;
+  padding-top: 20px;
+  max-width: 500px;
+  align-items: center;
+  margin-left: 60px;
+}
+hr {
+  height: 2px;
+  border: none;
+  background-color: white;
+  width: 500px;
+  margin-left: 50px;
+}

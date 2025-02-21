@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.section1 {
+  height: 100vh;
+  background-image: url("../../../assets/Images/inicio.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.title {
+  color: rgb(246, 249, 212);
+  font-size: 4rem;
+  font-weight: normal;
+  position: absolute;
+  top: 60%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  text-shadow: 3px 2px 4px rgba(0, 0, 0, 1);
+  z-index: 5;
+  font-family: Anton;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 170px;
+  margin-top: 20px;
+  position: absolute;
+  top: 75%;
+  left: 52.7%;
+  transform: translate(-50%, -50%);
+}
+.icon {
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
