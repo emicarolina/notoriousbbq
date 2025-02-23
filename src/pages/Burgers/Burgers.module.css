@@ -15,6 +15,7 @@
   font-weight: normal;
   padding-top: 5rem;
   transition: transform 0.3s ease;
+  padding-bottom: 2.5rem;
 }
 .headerTitle h1:hover {
   transform: scale(1.1);
@@ -24,15 +25,16 @@
   padding: 0;
   display: flex;
   align-items: center;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .content img {
   width: 13rem;
 }
 .content .texts {
   max-width: 30rem;
-  padding-top: 3rem;
+  padding-top: 0rem;
 }
+
 .content .texts h1 {
   font-family: Titan One;
   font-weight: normal;
