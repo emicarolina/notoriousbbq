@@ -1,8 +1,8 @@
 .carouselContainer {
   text-align: center;
-  margin: 50px auto;
-  max-width: 1200px;
-  padding-top: 10px;
+  margin: 3.6rem auto;
+  max-width: 70rem;
+  width: 100%;
 }
 
 .swiper {
@@ -16,7 +16,7 @@
 }
 
 .burgerImage {
-  width: 200px;
+  width: 15rem;
   height: auto;
   transition: transform 0.3s;
 }
@@ -26,8 +26,41 @@
 }
 
 .burgerName {
-  margin-top: 10px;
-  font-size: 18px;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #6a2800;
+}
+@media (max-width: 480px) {
+  .burgerName {
+    font-size: 1.3rem;
+  }
+  .burgerImage {
+    width: 10rem;
+  }
+}
+@media (min-width: 480px) and (max-width: 668px) {
+  .burgerName {
+    font-size: 1.4rem;
+  }
+  .burgerImage {
+    width: 14rem;
+  }
+}
+@media (min-width: 668px) and (max-width: 768px) {
+  .burgerName {
+    font-size: 1.3rem;
+  }
+  .burgerImage {
+    width: 14rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .burgerName {
+    font-size: 1.3rem;
+  }
+  .burgerImage {
+    width: 14rem;
+  }
 }

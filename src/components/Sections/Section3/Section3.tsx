@@ -16,7 +16,6 @@ const Section3 = () => {
               finalize seu pedido com facilidade.
             </p>
           </div>
-          <hr />
           <div>
             <span>02</span>
             <p>
@@ -24,7 +23,6 @@ const Section3 = () => {
               sabor.
             </p>
           </div>
-          <hr />
           <div>
             <span>03</span>
             <p>
@@ -32,7 +30,6 @@ const Section3 = () => {
               irresistível.
             </p>
           </div>
-          <hr />
           <div>
             <span>04</span>
             <p>

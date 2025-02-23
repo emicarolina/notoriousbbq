@@ -37,8 +37,9 @@ const BurgerCarousel = () => {
         spaceBetween={30}
         grabCursor={true}
         breakpoints={{
-          640: { slidesPerView: 1 },
-          1024: { slidesPerView: 3 },
+          0: { slidesPerView: 1 },
+          480: { slidesPerView: 2 },
+          768: { slidesPerView: 3 },
         }}
         className={styles.swiper}
       >

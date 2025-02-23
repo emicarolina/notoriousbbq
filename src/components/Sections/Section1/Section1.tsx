@@ -12,7 +12,7 @@ const Section1 = () => {
           <Instagram className={styles.icon} color="white" size={48} />
         </a>
         <a href="#">
-          <Facebook clssName={styles.icon} color="white" size={48} />
+          <Facebook className={styles.icon} color="white" size={48} />
         </a>
         <a href="#">
           <MessageCircle className={styles.icon} color="white" size={48} />
