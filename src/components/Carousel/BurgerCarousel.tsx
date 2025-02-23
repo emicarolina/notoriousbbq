@@ -40,6 +40,9 @@ const BurgerCarousel = () => {
           0: { slidesPerView: 1 },
           480: { slidesPerView: 2 },
           768: { slidesPerView: 3 },
+          1537: { slidesPerView: 3 },
+          1920: { slidesPerView: 3 },
+          2560: { slidesPerView: 4 },
         }}
         className={styles.swiper}
       >

@@ -29,7 +29,7 @@
 }
 @media (max-width: 480px) {
   .section2 {
-    min-height: 96vh;
+    min-height: 98vh;
   }
   .container2 {
     padding-top: 5rem;
@@ -42,11 +42,12 @@
     font-size: 2rem;
   }
   .container2 h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     max-width: 14rem;
     text-align: center;
     position: relative;
-    top: 5%;
+    padding-bottom: 6.5rem;
+    top: 14%;
   }
 }
 
@@ -65,7 +66,7 @@
     max-width: 23rem;
     text-align: center;
     position: relative;
-    top: -5%;
+    top: 10%;
   }
 }
 
@@ -84,22 +85,62 @@
     max-width: 36rem;
     text-align: center;
     position: relative;
-    top: -5%;
+    top: 15%;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .container2 {
-    padding-top: 4.5rem;
+    padding-top: 5rem;
   }
   .container2 h2 {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
   .container2 h1 {
-    font-size: 2.4rem;
+    font-size: 2.7rem;
   }
   .container2 h3 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     max-width: 36rem;
     text-align: center;
+    position: relative;
+    top: 33%;
   }
+}
+@media (min-width: 1537px) and (max-width: 1920px) {
+  .container2 {
+    padding-top: 5rem;
+  }
+  .container2 h2 {
+    font-size: 2rem;
+  }
+  .container2 h1 {
+    font-size: 2.8rem;
+  }
+  .container2 h3 {
+    font-size: 1.7rem;
+    max-width: 36rem;
+    text-align: center;
+    position: relative;
+    top: 23%;
+  }
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .container2 {
+    padding-top: 5rem;
+  }
+  .container2 h2 {
+    font-size: 2.1rem;
+  }
+  .container2 h1 {
+    font-size: 2.9rem;
+  }
+  .container2 h3 {
+    font-size: 1.7rem;
+    max-width: 36rem;
+    text-align: center;
+    position: relative;
+    top: 25%;
+  }
+}
+@media (min-width: 2560px) {
 }

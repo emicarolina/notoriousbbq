@@ -54,7 +54,7 @@
   .textos {
     text-align: center;
     padding-bottom: 2rem;
-    padding-top: 3rem;
+    padding-top: 6rem;
   }
   .textos h1 {
     font-size: 1.8rem;
@@ -148,18 +148,80 @@
   .textos {
     text-align: center;
     padding-bottom: 1.5rem;
-    padding-top: 8rem;
+    padding-top: 12rem;
   }
   .textos h1 {
-    font-size: 2.3rem;
+    font-size: 2.8rem;
   }
   .textos h2 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
   .lista p {
     padding-left: 2rem;
     max-width: 23rem;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .lista span {
+    padding-left: 4rem;
+    font-size: 3.5rem;
+  }
+  .lista {
+    padding-bottom: 3rem;
+    padding-right: 5rem;
+  }
+}
+@media (min-width: 1537px) and (max-width: 1920px) {
+  .section3 {
+    min-height: 100vh;
+  }
+  .textos {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    padding-top: 8rem;
+  }
+  .textos h1 {
+    font-size: 2.8rem;
+  }
+  .textos h2 {
+    font-size: 1.9rem;
+  }
+  .lista p {
+    padding-left: 2rem;
+    max-width: 23rem;
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .lista span {
+    padding-left: 4rem;
+    font-size: 3.5rem;
+  }
+  .lista {
+    padding-bottom: 3rem;
+    padding-right: 5rem;
+  }
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .section3 {
+    min-height: 100vh;
+  }
+  .textos {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    padding-top: 8rem;
+  }
+  .textos h1 {
+    font-size: 2.8rem;
+  }
+  .textos h2 {
+    font-size: 1.9rem;
+  }
+  .lista p {
+    padding-left: 2rem;
+    max-width: 23rem;
+    font-size: 1.6rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
   }
