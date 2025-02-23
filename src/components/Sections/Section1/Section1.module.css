@@ -123,7 +123,7 @@
 
 @media (min-width: 1920px) and (max-width: 2560px) {
   .title {
-    font-size: 4.7rem;
+    font-size: 5rem;
     text-align: center;
     top: 55%;
     left: 66%;
@@ -139,4 +139,19 @@
   }
 }
 @media (min-width: 2560px) {
+  .title {
+    font-size: 6rem;
+    text-align: center;
+    top: 55%;
+    left: 66%;
+  }
+  .icons {
+    top: 63%;
+    left: 66%;
+    width: 16rem;
+  }
+  .icon {
+    width: 20rem;
+    height: 20rem;
+  }
 }

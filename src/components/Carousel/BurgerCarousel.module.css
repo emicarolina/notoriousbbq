@@ -104,3 +104,15 @@
     width: 16rem;
   }
 }
+@media (min-width: 2560px) {
+  .carouselContainer {
+    position: relative;
+    top: 20%;
+  }
+  .burgerName {
+    font-size: 1.7rem;
+  }
+  .burgerImage {
+    width: 16rem;
+  }
+}

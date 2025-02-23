@@ -234,3 +234,34 @@
     padding-right: 5rem;
   }
 }
+@media (min-width: 2560px) {
+  .section3 {
+    min-height: 100vh;
+  }
+  .textos {
+    text-align: center;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+  }
+  .textos h1 {
+    font-size: 3.8rem;
+  }
+  .textos h2 {
+    font-size: 2.5rem;
+  }
+  .lista p {
+    padding-left: 4rem;
+    max-width: 30rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .lista span {
+    padding-left: 4rem;
+    font-size: 3.5rem;
+  }
+  .lista {
+    padding-bottom: 3rem;
+    padding-right: 5rem;
+  }
+}
